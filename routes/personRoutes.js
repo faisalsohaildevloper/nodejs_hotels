@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Person  = require('../models/Person')
 
-// POST route to add a person
+// POST route to add 
 router.post('/', async (req, res) =>{
 
   //new method of callback through try catch method
@@ -94,3 +94,5 @@ router.get('/:workType', async (req,res) =>{
  })
 
  module.exports = router;
+
+ // commit no. 2 yahan sy start hoga
